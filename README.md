@@ -5,9 +5,36 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
 - **Dataset**: Utilizes the CIFAR-10 dataset containing 60,000 32x32 color images across 10 classes.
 - **Dimensionality Reduction**: PCA is applied to reduce the high-dimensional image data to a lower-dimensional feature space.
 - **Classification**: A fully connected Feedforward Neural Network is trained on the reduced data to classify images.
-- **Evaluation Metrics**: Accuracy, precision, recall, and F1-score are used to evaluate the model's performance.
+- **Evaluation Metrics**: Accuracy, AUROC and per-class accuracy are used to evaluate the model's performance.
 
 ## Highlights
 - Achieved efficient dimensionality reduction while retaining key features of the dataset.
 - Optimized neural network architecture for classification on the reduced feature set.
-- Included visualizations of PCA explained variance and FNN training progress.
+- Included visualizations of PCA explained variance, ROC curve, FNN training progress among others
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BrightManu/PCA-FNN-on-CIFAR10-Data.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install package
+   ```
+   Dependencies
+   - numpy
+   - matplotlib
+   - torch
+   - torchvision
+   - scikit-learn
+  
+4. Open the notebook:
+   - Launch Jupyter Notebook or any compatible environment.
+   - Open the notebook file (`PCA_FNN_CIFAR10.ipynb`).
+
+5. Execute all cells sequentially to run the project.
+
+## Dependencies
+
+## Acknowledgments
+- CIFAR-10 Dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
