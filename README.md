@@ -30,7 +30,7 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
   
 4. Open the notebook:
    - Launch Jupyter Notebook or any compatible environment.
-   - Open the notebook file (`PCA_FNN_CIFAR10.ipynb`).
+   - Open the notebook file (`Project-PCA_FNN.ipynb`).
 
 5. Execute all cells sequentially to run the project.
 
