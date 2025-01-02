@@ -34,7 +34,5 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
 
 5. Execute all cells sequentially to run the project.
 
-## Dependencies
-
 ## Acknowledgments
 - CIFAR-10 Dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
