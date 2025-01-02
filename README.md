@@ -19,7 +19,7 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
    ```
 2. Install dependencies:
    ```bash
-   pip install ~package~
+   pip install package
    ```
    Dependencies
    - numpy
