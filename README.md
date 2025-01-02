@@ -8,8 +8,10 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
 - **Evaluation Metrics**: Accuracy, AUROC and per-class accuracy are used to evaluate the model's performance.
 
 ## Highlights
+- Performed hyperparameter tuning for the following parameters number of components for PCA, learning rate, hidden dimension, batch size and number of epochs.
 - Achieved efficient dimensionality reduction while retaining key features of the dataset.
 - Optimized neural network architecture for classification on the reduced feature set.
+- Best parameters yielded a classification accuracy of **76.73%** and an AUROC of **83.91%** on test set.
 - Included visualizations of PCA explained variance, ROC curve, FNN training progress among others
 
 ## How to Run
